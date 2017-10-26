@@ -1,0 +1,20 @@
+{
+    "name": "cmi/linkedinsso",
+    "description": "\"linkedIn Single Sign On\"",
+    "authors": [
+        {
+            "name": "Joussyd Calupig",
+            "email": "joussydmcalupig@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Cmi\\LinkedInsso\\": "src"
+        }
+    }
+}
